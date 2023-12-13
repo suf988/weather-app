@@ -1,0 +1,54 @@
+.main-div{
+    @apply flex flex-col justify-center items-center min-h-screen
+}
+
+.input-div{
+    @apply relative z-10 bg-opacity-50 backdrop-filter backdrop-blur-xl shadow-lg shadow-slate-700 
+    p-8 pt-4 w-10/12 md:w-8/12 lg:w-6/12 text-center rounded-3xl mt-6 hover:shadow-lg hover:shadow-slate-400 duration-500
+}
+
+/* md:w-4/12 sm:w-10/12 */
+.heading{
+    @apply text-4xl text-white font-bold mb-6
+}
+
+.input{
+    @apply w-4/6 border-none rounded-2xl h-10 px-2 shadow-lg mr-1 hover:bg-slate-200 duration-200
+}
+
+.display-div{
+    @apply relative z-10 bg-opacity-50 backdrop-filter backdrop-blur-xl shadow-lg shadow-slate-700 
+    p-8 pt-4 md:w-8/12 sm:w-10/12 text-center rounded-3xl mt-6 hover:shadow-lg hover:shadow-slate-400 duration-500
+}
+
+.live-temp{
+    @apply text-4xl font-bold
+}
+
+.city{
+    @apply text-2xl
+}
+
+.country{
+    @apply text-sm font-semibold ml-1
+}
+
+.detail-div-1{
+    @apply mt-6 flex justify-center space-x-10 text-2xl font-semibold text-slate-950 
+}
+
+.detail-div-2{
+    @apply mt-6 flex justify-center space-x-10 text-2xl font-semibold text-slate-950 
+}
+
+.span-tag{
+    @apply font-mono font-bold text-2xl text-slate-950 
+}
+
+.wait{
+    @apply font-extrabold text-3xl text-slate-950
+}
+
+.button{
+    @apply text-2xl text-white bg-slate-950 rounded-2xl pt-1 pb-2 px-3 ml-1 hover:bg-slate-200 hover:text-slate-950 duration-300
+}

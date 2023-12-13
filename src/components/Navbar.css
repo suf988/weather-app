@@ -1,0 +1,15 @@
+.navbar{
+    @apply bg-gradient-to-r from-slate-800 to-slate-950 p-4 min-w-full
+}
+
+.navbar-div{
+    @apply container mx-auto flex items-center justify-between
+}
+
+.anchor{
+    @apply flex items-center
+}
+
+.span{
+    @apply text-white ml-2 text-lg font-bold
+}
